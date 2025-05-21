@@ -89,13 +89,13 @@
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Data</span>
                     </a>
                   </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/yangyue5114/DRE-Bench" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -124,12 +124,12 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <!-- <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -137,14 +137,23 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/fig1-intro-new-516_00.png" alt="" style="width: 100%; height: auto;">
+        <h2 class="subtitle has-text-centered">
+        </h2>
+      </div>
+    </div>
+  </section>
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -159,6 +168,19 @@
             true human-like fluid intelligence and offer a new path for systematically tracking reasoning progress in LLMs.
           </p>
         </div>
+        <h3 class="title is-3">Introduction</h3>
+        <div class="content has-text-justified">
+          <p>
+            the contributions of this paper are summarized as follows. 1) We propose an abstract
+            reasoning benchmark with a cognition hierarchy, providing a more structural and comprehensive
+            system to analyze the LLMs' true fluid intelligence. 2) We develop a verifiable and scalable data
+            engine to dynamically generate abstract reasoning data with various complexities, by designing
+            a generator and solver for each task. 3) We perform comprehensive evaluations on a variety of
+            popular LLMs, indicating that the existing LLMs still struggle to solve the reasoning problem of
+            high cognitive levels. Existing LLMs may not have truly internalized the underlying reasoning rules,
+            which highlights that they remain far from achieving true fluid intelligence. 
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -169,36 +191,36 @@
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is is-max-desktop">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
+       <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/fig2-method-tree-single-rectangle_00.png" alt="MY ALT TEXT" style ="width: 80%; height: auto;"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Specific abstract reasoning tasks across our four cognitive levels. For each task example, we visualize two pairs of input and output, corresponding to two different values of the dynamic variable. The arrows are annotated with the value range of the variable, and darker colors indicate higher complexity.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/fig2-method-new-three-step_00.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          DRE-Bench Data Generation Pipeline: (1) Annotators identify task-specific constraints and rules, writing a generator and solver function. (2) The generator produces dynamic input data based on different variable values. (3) The solver analyzes and computes ground-truth output for each input.
         </h2>
       </div>
-      <div class="item">
+      <!-- <div class="item"> -->
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <!-- <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
-     </div>
-     <div class="item">
+     </div> -->
+     <!-- <div class="item"> -->
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <!-- <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
-    </div>
+    </div> -->
   </div>
 </div>
 </div>
@@ -209,57 +231,112 @@
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container"> -->
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <!-- <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
-          <div class="publication-video">
+          <div class="publication-video"> -->
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
-
-<!-- Video carousel -->
 <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <h2 class="title is-3" style = "text-align: center;">Experiment</h2>
+            <div class="content has-text-justified">
+              <p>
+                in this section, we evaluate state-of-the-art large language models and investigate the following
+                research questions through experimental results: i) How do current LLMs perform in abstract
+                reasoning across different cognitive levels? ii) As the complexity of dynamic data
+                increases, how will the LLM's performance change? iii) Based on the performance
+                of different LLMs across various cognitive dimensions, to what extent has the model's intelligence
+                level reached? iv) Is inference time scaling, visual information, and number of training
+                context samples, truly effective for abstract reasoning tasks? 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-image1">
+            <div style="text-align: center;">
+              <img src="static/images/merged_4_plots_larger516_00.png" alt="Image 1" style="width: 100%; height: auto;"/>
+              <h2 class="subtitle has-text-centered">
+                Model performance curves under varying complexities in four cognitive reasoning levels.
+              </h2>
+            </div>
+          </div>
+          <div class="item item-image2">
+            <div style="text-align: center;">
+              <img src="static/images/scatter_combined_levels(2)_00.png" alt="Image 2" style="width: 100%; height: auto;"/>
+              <h2 class="subtitle has-text-centered">
+                Scatter plots of model accuracy versus variance in cognitive reasoning levels and corre-sponding tasks, where points closer to the upper-left indicate higher accuracy and greater stability.
+              </h2>
+            </div>
+          </div>
+          <div class="item item-image3">
+            <div style="text-align: center;">
+              <img src="static/images/ablation_train_num_00.png" alt="Image 3" style="width: 60%; height: auto;"/>
+              <h2 class="subtitle has-text-centered">
+                Accuracy of DeepSeek-R1 on different numbers of in-context training samples.
+              </h2>
+            </div>
+          </div>
+          <div class="item item-image4">
+            <div style="text-align: center;">
+              <img src="static/images/ablation_time_o1_performance_metrics(1)_00.png" alt="Image 4" style="width: 100%; height: auto;"/>
+              <h2 class="subtitle has-text-centered">
+                Changing trend in o1's accuracy and inference time as task complexity increases.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
+            <!-- <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
+            <!-- <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
             <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
+            <!-- <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -268,7 +345,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -278,28 +355,28 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+  <!-- <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
@@ -308,7 +385,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Statcounter tracking code -->
   
